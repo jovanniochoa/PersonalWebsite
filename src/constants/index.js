@@ -3,26 +3,13 @@ import {
     backend,
     creator,
     web,
-    javascript,
-    typescript,
-    html,
-    css,
-    reactjs,
-    redux,
-    tailwind,
-    nodejs,
-    mongodb,
-    git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    personalwebsite,
+    helium,
+    swye,
+    discord,
     carrent,
     jobit,
     tripguide,
-    threejs,
   } from "../assets";
   
   export const navLinks = [
@@ -59,68 +46,13 @@ import {
     },
   ];
   
-  const technologies = [
-    {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
-      name: "React JS",
-      icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
-      name: "git",
-      icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
-  ];
-  
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Helium Router Heatmap",
+      company_name: "Helium",
+      icon: helium,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "May 2021 - July 2021",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -129,42 +61,42 @@ import {
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Chat Bot",
+      company_name: "Discord",
+      icon: discord,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "July 2021 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Developed a chatbot in Java using the Discord API, serving about 239 active users and 1842 total users.",
+        "Built a data extraction API to retrieve info from UTD, resulting in a 98% reduction in data entry time.",
+        "Hosted the Discord bot on a server with 99% uptime, allowing for uninterrupted service to users.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Backend Developer",
+      company_name: "SWYE360",
+      icon: swye,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Aug 2022 - Dec 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Led a small team of 3 responsible for preparing/cleaning data for our SQL database.",
+        "Projected student performance and recommended software usage to improve GPA with machine learning.",
+        "Optimized database performance by optimizing SQL queries, reducing query times by 60%.",
+        "Created and designed a website with Javascript, Html, CSS, and Figma respectively, leading to a 82% interest in customer interaction."
       ],
     },
     {
       title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      company_name: "Senior Design",
+      icon: personalwebsite,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Aug 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Designed a website using React, Tailwind CSS, and Typescript that received 38 visits in the first week.",
+        "Improved web app performance by troubleshooting and remediating issues, increasing performance 20%.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Deployed enhancements in three.js that significantly improved the website's load time by 40%.",
       ],
     },
   ];
@@ -262,4 +194,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, experiences, testimonials, projects };

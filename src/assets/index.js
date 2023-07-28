@@ -24,6 +24,10 @@ import threejs from "./tech/threejs.svg";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
+import helium from "./company/helium.png";
+import discord from "./company/discord.png";
+import swye from "./company/swye.png";
+import personalwebsite from "./company/personalwebsite.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
@@ -55,6 +59,10 @@ export {
   meta,
   shopify,
   starbucks,
+  helium,
+  personalwebsite,
+  swye,
+  discord,
   tesla,
   carrent,
   jobit,

@@ -65,7 +65,7 @@ import {
       company_name: "Discord",
       icon: discord,
       iconBg: "#E6DEDD",
-      date: "July 2021 - Present",
+      date: "July 2020 - Present",
       points: [
         "Developed a chatbot in Java using the Discord API, serving about 239 active users and 1842 total users.",
         "Built a data extraction API to retrieve info from UTD, resulting in a 98% reduction in data entry time.",
@@ -78,7 +78,7 @@ import {
       company_name: "SWYE360",
       icon: swye,
       iconBg: "#383E56",
-      date: "Aug 2022 - Dec 2022",
+      date: "Aug 2022 - Present",
       points: [
         "Led a small team of 3 responsible for preparing/cleaning data for our SQL database.",
         "Projected student performance and recommended software usage to improve GPA with machine learning.",
@@ -104,93 +104,93 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "Working with Jovanni was an absolute pleasure! I can't believe how beautifully he crafted our website.",
+      name: "Hayden Labrie",
+      designation: "Staff",
+      company: "SWYE360 Learning",
+      image: "https://randomuser.me/api/portraits/men/1.jpg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
+        "I've been fortunate to collaborate with Jovanni. His dedication to our project was truly commendable.",
+      name: "Md Hasan",
+      designation: "Staff",
+      company: "SWYE360 Learning",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
+        "Jovanni is an exceptional programmer who turned our vision to reality.",
+      name: "Anna Wang",
+      designation: "Staff",
+      company: "SWYE360 Learning",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Resume Website",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that showcases some of my projects, work experience, and front end development work.",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "JavaScript",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "CSS",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/jovanniochoa/PersonalWebsite",
     },
     {
-      name: "Job IT",
+      name: "Machine Learning Visualization",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application that enables users to play arround with algorithms letting them change the inputs, output speeds, and insert their own test data.",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Flask",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Scss",
           color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/jovanniochoa/MachineLearningVisualization",
     },
     {
-      name: "Trip Guide",
+      name: "Discord Bot",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A comprehensive chat bot that allows users to check the weather, schedule appointments, provide verification, and manage channel restrictions.",
       tags: [
         {
-          name: "nextjs",
+          name: "Java",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "JSON",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "API",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/jovanniochoa/ProjectClass",
     },
   ];
   
